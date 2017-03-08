@@ -7,7 +7,7 @@ from PIL import ImageGrab
 def text_reply(msg):
 	massage=["send 'screen' to get current screen. or send 'detail' to get details"]
 	if msg['Text'] == "screen":
-		im=ImageGrab.grab()
+		im=ImageGrab.grab()#可以规定坐标区域
 		localtime=str(time.time())
 		im.save(localtime+".jpg")
 		itchat.send_image(localtime+".jpg",toUserName='filehelper')
