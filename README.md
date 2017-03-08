@@ -13,4 +13,6 @@ Python 2.7 或3.5都支持，pip install itchat 得到轮子
 ##使用
 运行wechat.py 文件，提示扫码登录<br>在手机端的文件传输助手里输入以下命令：<br>
 1 'screen':获取当前屏幕截图，比较粗暴，但是不用改需要观察的程序<br>
-2 'detail':获取程序日志文件的最新内容，如何生成log另行学习
+2 'detail':获取程序日志文件的最新内容，如何生成log另行学习<br>
+具体的使用效果如下图：<br>
+![]( Py_chat/engpic.png )
