@@ -5,7 +5,7 @@ from PIL import ImageGrab
 
 @itchat.msg_register(itchat.content.TEXT)
 def text_reply(msg):
-	massage=["send 'result' to get current screen. or send 'detail' to get details"]
+	massage=["send 'screen' to get current screen. or send 'detail' to get details"]
 	if msg['Text'] == "screen":
 		im=ImageGrab.grab()
 		localtime=str(time.time())
